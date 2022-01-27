@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  padding-left: 10px;
+  font-size: 30px;
+  color: green;
+}
+.logo img {
+  width: 30px;
+}
+.btn-baixar {
+  background-color: rgb(75, 153, 75);
+  border-radius: 8px;
+  padding: 10px;
+}
+.btn-baixar a {
+  color: white;
+}
+span {
+  color: rgb(75, 153, 75);
+  font-size: 40px;
+}
+nav {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+li:hover {
+    color: green;
+    text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  display: flex;
+  width: 98vw;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+main .apn h1 {
+    font-size: 25px;
+}
+.banner1 img {
+  height: 70vh;
+  width: auto;
+}
+section {
+  display: flex;
+  width: 98vw;
+  align-items: center;
+  justify-content: center;
+}
+.Services {
+  width: 98vw;
+  text-align: center;
+  padding-top: 20px;
+  color: green;
+}
+.Itens {
+  display: flex;
+  width: 98vw;
+  padding: 30px 10px 50px 10px;
+  justify-content: space-around;
+  text-align: center;
+}
+.Ti:hover {
+  border: 1px solid Green;
+}
+
+.Ti {
+  padding: 30px;
+  width: 98vw;
+}
+
+.Ti h1 {
+  font-size: 30px;
+  padding-top: 10px;
+  color: green;
+}
+.Ti p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.Ti img {
+  width: 80px;
+  padding: 10px;
+  border-radius: 40px;
+}
+footer {
+  display: flex;
+  height: 50px;
+  width: 98vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
